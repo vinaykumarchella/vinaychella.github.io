@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Vinay Chella'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "About Vinay Chella"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I am Vinay Chella, an experienced and accomplished engineering leader with over 15 years of experience in building and managing distributed teams, focusing on large-scale data platforms (100’s of 1000’s of nodes/clusters, ~10B operations per day, exabytes of data), distributed databases, and cloud computing platforms. Currently leading the Online Data Abstractions at Netflix. Result-oriented with a proven track record of innovating and improving cloud data platforms. Spearheaded the transition to Apache Cassandra, co-invented the Data Gateway platform, and optimized operations to save millions while enabling business innovations.
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Blogs and Conferences'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = 'Last Updated: 2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/vinaychella/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "Conferences Talks and Blogs"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
